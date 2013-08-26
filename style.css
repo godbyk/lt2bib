@@ -1,0 +1,126 @@
+body {
+	background-color: #fff;
+	color: #000;
+	font-size: 0.9em;
+	font-family: sans-serif,helvetica;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+}
+
+:link {
+	/* color: #227f43; */
+	color: #009;
+}
+
+:visited {
+	/* color: #227f43; */
+	color: #009;
+}
+
+a:hover {
+	color: #00c;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+	padding: 0.6em 2em 0.4em;
+	background-color: #22437f; 
+	/* background-color: #227f43; */
+	color: #fff;
+	font-weight: normal;
+	font-size: 1.75em;
+	border-bottom: 2px solid #000;
+}
+
+h1 strong {
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 1.5em;
+}
+
+hr {
+	display: none;
+}
+
+.content {
+	padding: 1em 5em;
+}
+
+.content-columns {
+	/* Setting relative positioning allows for 
+	absolute positioning for sub-classes */
+	position: relative;
+	padding-top: 1em;
+}
+
+.content-column-left {
+	/* Value for IE/Win; will be overwritten for other browsers */
+	width: 47%;
+	padding-right: 3%;
+	float: left;
+	padding-bottom: 2em;
+}
+
+.content-column-left hr {
+	display: none;
+}
+
+.content-column-right {
+	/* Values for IE/Win; will be overwritten for other browsers */
+	width: 47%;
+	padding-left: 3%;
+	float: left;
+	padding-bottom: 2em;
+}
+
+.content-columns>.content-column-left, .content-columns>.content-column-right {
+	/* Non-IE/Win */
+}
+
+img {
+	/* border: 2px solid #fff; */
+	padding: 2px;
+	margin: 2px;
+	vertical-align: middle;
+}
+
+h1 img {
+	padding: 0;
+	margin: 0;
+	/* vertical-align: middle; */
+}
+a:hover img {
+	border: 2px solid #227f43;
+}
+
+p {
+	/* line-height: 1.5; */
+}
+
+.bluebg {
+	/*
+	margin: 0px;
+	vertical-align: middle;
+	height: 95%;
+	font-family: Verdana, sans;
+	font-size: small;
+	*/
+	border: 2px solid;
+	background-color: lightsteelblue;
+	border-color: steelblue;
+	padding: 3px 3px;
+}
+
+div.alignright {
+	text-align: right;
+}
+
+div.aligncenter {
+	text-align: center;
+}
